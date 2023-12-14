@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in page</title>
+    <link rel="shortcut icon" href="download.png">
+    <body style="background-color:powderblue;">
+</head>
+<body>
+    <h1 align="center">Create your account today!</h1>
+   
+        <form>
+            <label> First Name: &nbsp;<input placeholder="First Name " type="text" minlength="3" maxlength="30" required></label>
+            <label>Last Name: &nbsp; <input placeholder="Last Name" type="text" minlength="3" maxlength="30"required></label>
+            <br><br>
+            <label>Mobile number: &nbsp;<input placeholder="Mobile number" type="number" maxlength="12" minlength="10"required></label>
+            <br><br>
+            <lable> Email id: &nbsp;<input placeholder="Email id" type="email"required></lable>
+            <br> <br>
+           <label>Address: <input placeholder="Address" type="text"required></label>
+           <br> <br>
+           <label>Age<input type="number" required min="10" max="69"></label>
+            <label>Date of Birth <input type="date"required></label>
+            <br><br>
+            <label>Mother's name /Father's name <input placeholder="Mother's name /Father's name" type="text" minlength="4"maxlength="40"required></label>
+            <br> <br>
+            <label>Aadhar number<input placeholder="Aadhar number" type="number" maxlength="16"></label>
+            
+            <br><br>
+            <label for="Gender">Gender:
+                <input type="radio"  value="male" name="gender" checked >
+                <label for="male">Male</label>
+                <input type="radio"  value="female" name="gender" >
+                <label for="female">Female</label>
+                <input type="radio" id="other" value="other" name="gender" >
+                <label for="other">Other</label>
+                </label>
+                <br><br>
+                <label>Create password<input required  placeholder="********" type="password" required></label>
+                <br><br>
+                <label> Confirm Password<input  required placeholder="********" type="password"></label>
+                <br>
+                <label for="terms">Terms: &nbsp; &nbsp;<input required type="checkbox">I agree to terms and conditions</label>
+                <br><br>
+                <button type="submit">Sign in</button>
+                <button type="reset">Delete all data</button>
+                 
+        </form>
+    
+    
+</body>
+</html>
